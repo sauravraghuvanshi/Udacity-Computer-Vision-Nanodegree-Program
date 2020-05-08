@@ -3,7 +3,9 @@ This repository contains my exercises and projects for the
 [Computer-Vision-Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) at [Udacity](https://Udacity.com).
 
 <img src="images/Vision.jpg" width="1000">
+
 # Created by Saurav Raghuvanshi
+
 **This repositary contain all my exercises and projects of Udacity Computer Vision Nanodegree Program** 
 
 ## Project 1: Facial Keypoint Detection
