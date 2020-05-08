@@ -41,4 +41,5 @@ In this project, I implement SLAM (Simultaneous Localization and Mapping) for a 
 
 The Udacity repository for this project: [Project_Landmark Detection](https://github.com/udacity/CVND_Localization_Exercises/tree/master/Project_Landmark%20Detection)
 
-
+# My Certificate of Complition
+<img src="images/Computer Vision.png" width="1000">
