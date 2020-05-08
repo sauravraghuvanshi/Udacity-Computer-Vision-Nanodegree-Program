@@ -10,7 +10,7 @@ I got the best results when doing transfer learning on a [pretrained resnet18 to
 ### Test images
 Here are the predicted keypoints using the resnet model on the provided test images.
 
-<img src="images/obamas_resnet.png" width="512">
+<img src="images/key_pts_example.png" width="512">
 <img src="images/beatles_resnet.png" width="512">
 <img src="images/mona_lisa_resnet.png" width="255">
 
