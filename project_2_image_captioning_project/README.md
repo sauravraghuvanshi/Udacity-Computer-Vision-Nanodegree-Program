@@ -14,6 +14,19 @@ Student Code-In is a global program that helps students grow with Open Source Co
 
 In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for  automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext [(MS COCO)](http://cocodataset.org/#home) dataset. The image captioning model is displayed below.
 ![Image Captioning Model](images/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
+
+## Dataset Visualization
+![Image Captioning Model](images/coco-examples.jpg?raw=true)
+
+
+## Algorithm Visualization
+![Encoder](images/encoder.png?raw=true)
+### It is the first part part of Model i.e Encoder. It is a CNN Algorithm.
+![Decoder](images/decoder.png?raw=true)
+### It is second part of Model i.e Decoder. It is a LSTM Algorithm. 
+![Encoder-Decoder](images/encoder-decoder.png?raw=true)
+### Complete Visualization of how algorithm will work completely.
+
 ## Generating Image Captions
 
 Here are some predictions from my model.
@@ -26,6 +39,3 @@ Here are some predictions from my model.
 ![sample_029](samples/sample_029.png?raw=true)<br/>
 ![sample_107](samples/sample_107.png?raw=true)<br/>
 ![sample_202](samples/sample_202.png?raw=true)
-
-
-The Udacity repository for this project: [CVND---Image-Captioning-Project](https://github.com/udacity/CVND---Image-Captioning-Project)
