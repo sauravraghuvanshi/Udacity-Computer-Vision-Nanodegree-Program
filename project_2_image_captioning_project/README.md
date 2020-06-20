@@ -39,3 +39,12 @@ Here are some predictions from my model.
 ![sample_029](samples/sample_029.png?raw=true)<br/>
 ![sample_107](samples/sample_107.png?raw=true)<br/>
 ![sample_202](samples/sample_202.png?raw=true)
+
+##  💥 How to Contribute?
+
+- Take a look at the Existing Issues or create your own Issues!
+- Wait for the Issue to be assigned to you after which you can start working on it.
+- Fork the Repo and create a Branch for any Issue that you are working upon.
+- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
+- Add Screenshots to help us know what this Script is all about.
+
