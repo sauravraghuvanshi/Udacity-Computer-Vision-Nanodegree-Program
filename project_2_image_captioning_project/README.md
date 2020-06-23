@@ -41,7 +41,8 @@ Here are some predictions from my model.
 ![sample_202](samples/sample_202.png?raw=true)
 
 ## File descriptions
-**0_Dataset.ipynb :** - In this file we initialize the COCO API so that we can access the data in the Microsoft Common Objects in COntext (MS COCO) dataset.
+
+- **0_Dataset.ipynb :** - In this file we initialize the COCO API so that we can access the data in the Microsoft Common Objects in COntext (MS COCO) dataset.
 
 ##  💥 How to Contribute?
 
