@@ -1,4 +1,4 @@
-## MS COCO DATASET :http://cocodataset.org/
+## [MS COCO DATASET](http://cocodataset.org/)
 
 ## About
 
@@ -9,14 +9,15 @@ Few things which set this dataset apart from others are :
 3) Instance Spotting and Segmentation: The Instance Spotting and Segmentation was done by workers who contributed approximately 10k worker hours.This helped in providing the precise 2D localization the dataset boasts of.
 4) Categories and Super Categories: There are a total of 91 categories and 11 Super Categories which were assigned by the researchers.The categories are usually the most commonly described objects by humans.
 
-For more information , read the paper here: https://arxiv.org/pdf/1405.0312.pdf
-To get the dataset , visit: http://cocodataset.org/
+For more information , read the [paper](https://arxiv.org/pdf/1405.0312.pdf).
+
+To get the dataset , visit the [MSCOCO official site](http://cocodataset.org/).
 
 
 
 ## COCO API GUIDE
 
-This package provides Matlab, Python, and Lua APIs that assists in loading, parsing, and visualizing the annotations in COCO. Please visit http://cocodataset.org/ for more information on COCO, including for the data, paper, and tutorials. The exact format of the annotations is also described on the COCO website. The Matlab and Python APIs are complete, the Lua API provides only basic functionality.
+This package provides Matlab, Python, and Lua APIs that assists in loading, parsing, and visualizing the annotations in COCO. Please visit their [site](http://cocodataset.org/) for more information on COCO, including for the data, paper, and tutorials. The exact format of the annotations is also described on the COCO website. The Matlab and Python APIs are complete, the Lua API provides only basic functionality.
 
 In addition to this API
 Download both the COCO images and annotations in order to run the demos and use the API. Both are available on the project website.
@@ -25,7 +26,7 @@ Download both the COCO images and annotations in order to run the demos and use 
 
 >Please download and place the annotations in: coco/annotations/
 
-For substantially more details on the API please see http://cocodataset.org/#download. After downloading the images and annotations, run the Matlab, Python, or Lua demos for example usage.
+For substantially more details on the API please [see](http://cocodataset.org/#download). After downloading the images and annotations, run the Matlab, Python, or Lua demos for example usage.
 
 ## For installation:
 
