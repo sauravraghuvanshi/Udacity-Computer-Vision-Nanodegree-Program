@@ -42,7 +42,9 @@ Here are some predictions from my model.
 
 ## File descriptions
 
-- **0_Dataset.ipynb :** - In this file we initialize the COCO API so that we can access the data in the Microsoft Common Objects in COntext (MS COCO) dataset.
+- **0_Dataset.ipynb :**  In this file we initialize the COCO API so that we can access the data in the Microsoft Common Objects in COntext (MS COCO) dataset. We also plot a random sample image and 5 captions using the COCO API.
+
+- **1_Preliminaries.ipynb :** In this file, using the data_loader.py and vocabulary.py files we preprocess the images and captions and perform operations like image transformation and determining batch size etc. Then we implement the CNN Encoder and and RNN decoder from the models.py file
 
 ##  💥 How to Contribute?
 
