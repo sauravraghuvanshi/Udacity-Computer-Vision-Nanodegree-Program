@@ -1,4 +1,4 @@
-# DEVELOPERS AERA
+# DEVELOPERS AREA
 
 ### Image Captioning Project
 In this project, we design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for automatically generating image captions.
