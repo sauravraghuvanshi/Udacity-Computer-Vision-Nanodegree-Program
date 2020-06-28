@@ -2,7 +2,7 @@
 
 ****About SCI****
 
-Student Code-In is a global program that helps students grow with Open Source Contribution. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of Open Source Projects Projects. In this, all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team. 
+Student Code-In is a global program that helps students grow with Open Source Contribution. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of Open Source Projects Projects. In this, all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
 
 
 <p align="center">
@@ -23,7 +23,7 @@ In this project, I design and train a CNN-RNN (Convolutional Neural Network - Re
 ![Encoder](images/encoder.png?raw=true)
 ### It is the first part part of Model i.e Encoder. It is a CNN Algorithm.
 ![Decoder](images/decoder.png?raw=true)
-### It is second part of Model i.e Decoder. It is a LSTM Algorithm. 
+### It is second part of Model i.e Decoder. It is a LSTM Algorithm.
 ![Encoder-Decoder](images/encoder-decoder.png?raw=true)
 ### Complete Visualization of how algorithm will work completely.
 
@@ -58,9 +58,10 @@ The decoder model used is the same one from [Show, Attend and Tell: Neural Image
 
 ##  💥 How to Contribute?
 
+>Make sure you read the [Code of Conduct](code-of-conduct.md) before making any contribution.
+
 - Take a look at the Existing Issues or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
-
