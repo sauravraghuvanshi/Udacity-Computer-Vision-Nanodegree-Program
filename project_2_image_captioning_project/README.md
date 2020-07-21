@@ -15,13 +15,34 @@ Student Code-In is a global program that helps students grow with Open Source Co
 In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for  automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext [(MS COCO)](http://cocodataset.org/#home) dataset. The image captioning model is displayed below.
 ![Image Captioning Model](images/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
 
+# COCO Dataset
+
+The COCO dataset is one of the largest, publicly available image datasets and it is meant to represent realistic scenes. What I mean by this is that COCO does not overly pre-process images, instead these images come in a variety of shapes with a variety of objects and environment/lighting conditions that closely represent what you might get if you compiled images from many different cameras around the world.
+
+To explore the dataset, you can check out the [dataset website](https://cocodataset.org/#explore)
+
+# Explore
+
+Click on the explore tab and you should see a search bar that looks like the image below. Try selecting an object by it's icon and clicking search!
+![Images of COCO Datasets](https://drive.google.com/file/d/1NN6nLVemrRsndzQVC1dYpI3ZnrWArp48/view?usp=sharing)
+
+You can select or deselect multiple objects by clicking on their corresponding icon. Below are some examples for what a sandwich search turned up! You can see that the initial results show colored overlays over objects like sandwiches and people and the objects come in different sizes and orientations.
+![Images of Sandwiches](https://drive.google.com/file/d/1vwrkLamFjRXIczktqYvOZyhkVzd5ejjE/view?usp=sharing)
+
+# Captions
+
+COCO is a richly labeled dataset; it comes with class labels, labels for segments of an image, and a set of captions for a given image. To see the captions for an image, select the text icon that is above the image in a toolbar. Click on the other options and see what the result is.
+![Image For Captions](https://drive.google.com/file/d/1FGcWJApjLlWUfDJyES_BcQyDBoEoYHFl/view?usp=sharing)
+
+When we actually train our model to generate captions, we'll be using these images as input and sampling one caption from a set of captions for each image to train on.
+
 ## Dataset Visualization
 ![Image Captioning Model](images/coco-examples.jpg?raw=true)
 
 
 ## Algorithm Visualization
 ![Encoder](images/encoder.png?raw=true)
-### It is the first part part of Model i.e Encoder. It is a CNN Algorithm.
+### It is the first part of Model i.e Encoder. It is a CNN Algorithm.
 ![Decoder](images/decoder.png?raw=true)
 ### It is second part of Model i.e Decoder. It is a LSTM Algorithm.
 ![Encoder-Decoder](images/encoder-decoder.png?raw=true)
