@@ -24,15 +24,15 @@ To explore the dataset, you can check out the [dataset website](https://cocodata
 # Explore
 
 Click on the explore tab and you should see a search bar that looks like the image below. Try selecting an object by it's icon and clicking search!
-![Images of COCO Datasets](https://drive.google.com/file/d/1NN6nLVemrRsndzQVC1dYpI3ZnrWArp48/view?usp=sharing)
+![Images of COCO Datasets](images/COCO_Explorer.png?raw=true)
 
 You can select or deselect multiple objects by clicking on their corresponding icon. Below are some examples for what a sandwich search turned up! You can see that the initial results show colored overlays over objects like sandwiches and people and the objects come in different sizes and orientations.
-![Images of Sandwiches](https://drive.google.com/file/d/1vwrkLamFjRXIczktqYvOZyhkVzd5ejjE/view?usp=sharing)
+![Images of Sandwiches](images/COCO_sandwiches.png?raw=true)
 
 # Captions
 
 COCO is a richly labeled dataset; it comes with class labels, labels for segments of an image, and a set of captions for a given image. To see the captions for an image, select the text icon that is above the image in a toolbar. Click on the other options and see what the result is.
-![Image For Captions](https://drive.google.com/file/d/1FGcWJApjLlWUfDJyES_BcQyDBoEoYHFl/view?usp=sharing)
+![Image For Captions](images/COCO_Captions.png?raw=true)
 
 When we actually train our model to generate captions, we'll be using these images as input and sampling one caption from a set of captions for each image to train on.
 
