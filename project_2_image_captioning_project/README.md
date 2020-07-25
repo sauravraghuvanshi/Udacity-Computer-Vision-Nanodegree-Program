@@ -2,7 +2,7 @@
 
 ****About SCI****
 
-Student Code-In is a global program that helps students grow with Open Source Contribution. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of Open Source Projects Projects. In this, all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
+Student Code-In is a global program that helps students grow with Open Source Contribution. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of Open Source Projects Projects. In this, all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team. 
 
 
 <p align="center">
@@ -14,6 +14,7 @@ Student Code-In is a global program that helps students grow with Open Source Co
 
 In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for  automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext [(MS COCO)](http://cocodataset.org/#home) dataset. The image captioning model is displayed below.
 ![Image Captioning Model](images/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
+
 
 ## Dataset Visualization
 ![Image Captioning Model](images/coco-examples.jpg?raw=true)
@@ -47,11 +48,11 @@ Here are some predictions from my model.
 
 - **2_Training.ipynb:** In this file, we train the encoder-decoder neural network for Image Generation.For this project, as aforementioned, the encoder is a CNN model whereas the decoder is a RNN model. The next few lines give you a brief introduction to whys and hows of the model.
     - **Encoder:**
-      The CNN model we are using is the ResNet-152 network, which among those available from [PyTorch](https://pytorch.org/docs/master/torchvision/models.html) was        observed to perform the best on the ImageNet dataset and from [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf), section **5.2 Evaluation Procedures**, one can conclude that it is always better to use recent architectures. When we work with very deep neural networks, after a certain point we find that the training error starts increasing with increasing layers. This issue is due to vanishing gradients. In order to avoid vanishing and exploding gradients in our model, we are using Residual Networks or ResNets. ResNets skip learning a few layers and instead learn an identity function, which allows it to remember the key characterstics of the data. This identity function is then passed to the next layer where the skip of the ResNets ends.
+      The CNN model we are using is the ResNet-152 network, which among those available from [PyTorch](https://pytorch.org/docs/master/torchvision/models.html) was        observed to perform the best on the ImageNet dataset and from [Show, Attend and Tell:Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf), section **5.2 Evaluation Procedures**, one can conclude that it is always better to use recent architectures. When we work with very deep neural networks, after a certain point we find that the training error starts increasing with increasing layers. This issue is due to vanishing gradients. In order to avoid vanishing and exploding gradients in our model, we are using Residual Networks or ResNets. ResNets skip learning a few layers and instead learn an identity function, which allows it to remember the key characterstics of the data. This identity function is then passed to the next layer where the skip of the ResNets ends.
 This model is taken as it is with the only change being in the last fully connected layer. A batch normalization layer is added. The images undergo data augmentation before they are finally changed from 256 size to 224 in order to be feeded into the model.
 
    - **Decoder:**
-The decoder model used is the same one from [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf). It is a LSTM model(a type of LSTM model) which produces a caption by generating one word at every timestep conditioned on a context vector, the previous hidden state and the previously generated words. This model is trained from scratch.
+The decoder model used is the same one from [Show, Attend and Tell:Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf). It is a LSTM model(a type of LSTM model) which produces a caption by generating one word at every timestep conditioned on a context vector, the previous hidden state and the previously generated words. This model is trained from scratch.
 
    The optimizer used is Adam optimizer. We conclude with the training notebook here and go to the next phase.
 
@@ -67,3 +68,4 @@ The decoder model used is the same one from [Show, Attend and Tell: Neural Image
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
+
